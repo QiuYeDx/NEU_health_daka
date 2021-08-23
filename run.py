@@ -73,7 +73,7 @@ class daka():
     def temperatureDaka(self):
         #体温打卡
         try:
-            hour = (time.localtime().tm_hour + 8) % 24   # 加8是因为腾讯云跑出来是格林时间
+            hour = time.localtime().tm_hour % 24   # 加8是因为腾讯云跑出来是格林时间
             temperature_url = 'https://e-report.neu.edu.cn/inspection/items/{}/records'.format(('1' if 7 <= hour <= 9 else '2' if 12 <= hour <= 14 else '3'))
             temperature_items = {
                 '_token': self.token,
