@@ -52,4 +52,4 @@
 
 ### 完成。通知部分也能用其他的邮箱或者server酱，自动打卡部分也可以挂自己云服务器上或者用git Actions(有时不太稳定)，兄弟们按需修改。
 
-## 该版本已为挂在自己的服务器使用做了一些定制，原版链接https://github.com/Bmaili/NEU_health_daka  by QiuYeDx
+## 该版本已为挂在自己的服务器使用做了一些定制，[原版链接](https://github.com/Bmaili/NEU_health_daka)，[原作者Bmaili](https://github.com/Bmaili)  by QiuYeDx
