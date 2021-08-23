@@ -62,6 +62,7 @@ class daka():
             health_response = self.my_session.post(self.note_url, health_items)
             if health_response.status_code == 201:
                 print(str(health_response) + '健康打卡成功')
+                self.sendEmail.sendMessage(str(health_response) + '健康打卡成功')
             elif config.isSendMessage:
                 self.sendEmail.sendMessage('健康打卡失败！请手动完成打卡！' + str(health_response))
         except:
@@ -83,6 +84,7 @@ class daka():
             temperature_response = self.my_session.post(temperature_url,    temperature_items)
             if temperature_response.status_code == 200:
                 print(str(temperature_response) + '体温打卡成功')
+                self.sendEmail.sendMessage(str(temperature_response) + '健康打卡成功')
             elif config.isSendMessage:
                 self.sendEmail.sendMessage('体温打卡失败！请手动完成打卡！' + str(temperature_response))
         except:
