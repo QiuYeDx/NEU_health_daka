@@ -1,4 +1,4 @@
-### python（本地无python环境也ok）脚本进行NEU健康、体温打卡，腾讯云云函数定时调用脚本，以防万一，打卡失败时qq邮箱通知。
+### [可挂在服务器运行]python脚本进行NEU健康、体温打卡，打卡成功/失败时qq邮箱通知。
 
 ## PS:该版本已在python3.9 pycharmIDE中测试通过 by QiuYeDx
 
