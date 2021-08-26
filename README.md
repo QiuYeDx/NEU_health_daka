@@ -31,4 +31,4 @@ crontab -e  # 修改系统计划任务
 ```
 保存，搞定。
 ## 步骤三已为挂在自己的服务器使用进行了重写，代码也有改动，不能直接挂在腾讯云上。
-[原版链接](https://github.com/Bmaili/NEU_health_daka)，[原作者Bmaili](https://github.com/Bmaili)  by QiuYeDx
+[原版链接](https://github.com/Bmaili/NEU_health_daka)，[原作者Bmaili](https://github.com/Bmaili)。
